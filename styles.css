@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f8ff;
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffccd5;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ff77a9;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    background: #ffb3d9;
+    padding: 3em 1em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.content {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.card {
+    display: inline-block;
+    background: #fff;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #ffccd5;
+    padding: 1em 0;
+}
+
+footer p {
+    color: #ff77a9;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background: #ff77a9;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff4b8f;
+}
